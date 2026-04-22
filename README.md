@@ -76,9 +76,3 @@ Firebase se koristi za autentifikaciju korisnika, dok se rezervacije spremaju i 
 
 Ovaj projekat pokazuje kompletan proces izrade web aplikacije od frontend do backend dijela.  
 Aplikacija rješava realan problem zakazivanja termina u salonu i omogućava jednostavno upravljanje rezervacijama.
-
----
-
-## 👩‍💻 Autor
-Amila Krupalija – Treća gimnazija Sarajevo SI
-Školska godina 2025/2026
