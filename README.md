@@ -80,5 +80,5 @@ Aplikacija rješava realan problem zakazivanja termina u salonu i omogućava jed
 ---
 
 ## 👩‍💻 Autor
-Amila Krupalija – Treća gimnazija Sarajevo
+Amila Krupalija – Treća gimnazija Sarajevo SI
 Školska godina 2025/2026
