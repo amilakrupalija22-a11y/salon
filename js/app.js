@@ -9,14 +9,9 @@ function dodaj(){
     fetch("php/dodaj.php", {
         method: "POST",
         body: data
-    })
-    .then(res => res.text())  
-    .then(res => {
-        console.log(res);     
-        ucitaj();
-    })
-    .catch(err => console.log(err));
-}
+
+       }) .then(() => ucitaj()); 
+    }
 
 function ucitaj(){
     fetch("php/prikaz.php")
