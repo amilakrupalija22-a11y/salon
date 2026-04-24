@@ -17,7 +17,7 @@
     <button onclick="login()">Login</button>
 </div>
 
-<!-- BITNO: verzija 8 -->
+
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 
@@ -31,10 +31,10 @@ const firebaseConfig = {
   appId: "1:1091935871033:web:c046651a4093416848ede8"
 };
 
-// inicijalizacija
+
 firebase.initializeApp(firebaseConfig);
 
-// registracija
+
 function register(){
     let email = document.getElementById("email").value;
     let pass = document.getElementById("pass").value;
@@ -44,7 +44,7 @@ function register(){
     .catch(e => alert(e.message));
 }
 
-// login
+
 function login(){
     let email = document.getElementById("email").value;
     let pass = document.getElementById("pass").value;
