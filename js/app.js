@@ -10,7 +10,12 @@ function dodaj(){
         method: "POST",
         body: data
     })
-    .then(() => ucitaj());
+    .then(res => res.text())  
+    .then(res => {
+        console.log(res);     
+        ucitaj();
+    })
+    .catch(err => console.log(err));
 }
 
 function ucitaj(){
